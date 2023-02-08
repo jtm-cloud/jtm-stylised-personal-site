@@ -1,11 +1,12 @@
 a {
     color: #11999E;
-    margin: 30px 20px;
+    margin: 10px 20px;
     text-decoration: none;
+    font-family: 'Merriweather', serif;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #EAF6F6
 }
 
 body {
@@ -18,16 +19,13 @@ body {
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
 .bottom-container {
-    display: block;
     background-color: #66BFBF;
-    position: absolute;
-    margin: 0;
-    width: 100%;
+    padding: 50px 0px 20px;
 }
 
 .btn {
@@ -41,13 +39,11 @@ body {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    margin-top: 50px;
-    margin-bottom: 65px;
   }
   
   .btn:hover {
@@ -66,8 +62,15 @@ body {
     margin-right: 30px;
 }
 
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
 .copyright {
-    color: white;
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 .gaming-image {
@@ -88,6 +91,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -99,18 +103,24 @@ hr {
     border-style: none;
     border-top-style: dotted;
     border-color: #EAF6F6;
-    border-width: 5px;
+    border-width: 6px;
     height: 0px;
-    width: 3%;
+    width: 4%;
+    margin: 100px auto;
 }
 
 .intro-message {
-    width: 40%;
+    width: 30%;
     margin: 0 auto;
 }
 
 .middle-container {
     background-color: white;
+    margin: 100px 0px;
+}
+
+p {
+    line-height: 2;
 }
 
 .profile-pic {
@@ -122,13 +132,12 @@ hr {
     width: 50%;
     margin: 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .top-container {
